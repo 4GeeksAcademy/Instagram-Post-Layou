@@ -15,16 +15,20 @@ body {
     width: 100%;
     height: auto;
     border: 1px solid;
-    position: relative;
+    display: flex;
+}
+
+.HTML5 {
+
+    padding: 10px;
 }
 
 .name {
-    width: 10%;
-    height: auto;
-    margin: 0;
     display: inline-block;
     margin-bottom: 3px;
     padding-bottom: 5px;
+    margin-left: 35px;
+    position: absolute;
     
 }
 
@@ -38,7 +42,8 @@ body {
 .hamburger {
     display: inline-block;
     height: 20px;
-   padding-left: 330px;
+   margin-left: auto;
+   padding: 10px;
 }
 
 img { 
@@ -53,15 +58,13 @@ img {
 justify-content: space-between;    
 
 }
+
 .bookmark {
+    display: contents;
     margin-left: auto;
   }
 
-.likes {
-    text-align: center;
-}
-
 .pie {
-    text-align: center;
+
     padding-bottom: 10px;
 }
